@@ -1,0 +1,39 @@
+:root{
+    --banner-background:#111;
+    --banner-color:#fff;
+
+
+}
+.topbar{
+    background:var(--banner-background);
+    color: var(--banner-color);
+    position: absolute;
+    left: 0; 
+   top: 0;
+    width: 100%;
+    height: 32px;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    font-size:14px;
+    font-weight: 500;
+}
+.banner-cta {
+    margin: 0 10px;
+    font-weight: 600;
+}
+.annoucement-company {
+   margin: 0 2px;
+}
+
+
+
+@media screen and (max-width: 600px){
+    .annoucement-company{
+        display: none;
+    }
+    
+}
+    

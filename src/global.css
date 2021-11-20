@@ -1,0 +1,24 @@
+/* Ubuntu for Headings */
+/* Poppins for body */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Ubuntu:wght@500;700&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: "Poppins",
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+img,
+svg {
+  vertical-align: middle;
+}
+
+@media screen and (min-width: 1040px) {
+  .header-content {
+    max-width: 1000px;
+    margin:0 auto;
+   
+  }
+}

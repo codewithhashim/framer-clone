@@ -1,0 +1,136 @@
+.header-container{
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        width: 100vw;
+        flex-flow: column nowrap;
+        contain: layout;
+}
+
+.navigation-background::after, .navigation-background::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+}
+
+.navigation-background::after{
+    box-shadow: hsla(0, 0%, 0%, 0.05) 0px 0px 0px 1px;
+}
+
+
+.navigation-container{
+    
+    height: 80px;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    margin-top: 33px;
+
+}
+
+.navigation-main{
+    position: relative;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    height: 100%;
+}
+.navigation-logo svg {
+    width: 14px;
+    height: 21px;
+    margin-right: 12px;
+}
+.navigation-logo {
+    display:flex;
+    place-items: center;
+    place-content: center;
+    text-decoration: none;
+}
+.navigation-logowordmark{
+    display: inline-block;
+    height: 1em;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1;
+}
+.nav-links{
+    display: flex;
+    list-style-type: none;
+    place-content: center;
+    place-items: center;
+    margin: 0;
+    
+}
+.nav-links li{
+    font-size: 15px;
+    position: relative;
+    cursor: pointer;
+}
+.pagination-link{
+    text-decoration: none;
+    color: #0009;
+    padding: 10px 14px;
+    border-radius: 12px;
+
+}
+.pagination-link:hover, a.pagination-link:focus{
+    background: #0000000d;
+    color: #000;
+}
+.sublinks{
+    display: flex;
+    place-content: center;
+    place-items: center;
+}
+.Navigation_pageArrow{
+  margin-left: 5px;
+  margin-bottom: 2px;
+width: 0.4rem;
+height: 0.4rem;
+}
+
+
+.navigation-search svg{
+    width: 26px;
+}
+
+.navigation-actions{
+    display: flex;
+
+    flex-direction: row;
+    list-style: none;
+    place-content: center;
+    place-items: center;
+   
+}
+.signup{
+    background-color: #0099ff;
+    font-family: poppins;
+    color: #fff;
+    outline: none;
+    border: 0;
+    padding: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 12px;
+}
+.sign-in {
+    background: transparent;
+    outline: none;
+    border: 0;
+    padding: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+#dropdown-menu{
+    display: none;
+}
