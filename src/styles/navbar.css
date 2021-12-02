@@ -121,7 +121,11 @@ height: 0.4rem;
     font-weight: 500;
     border-radius: 12px;
 }
+.signup:hover{
+    opacity: 0.5;
+}
 .sign-in {
+    font-family: poppins;
     background: transparent;
     outline: none;
     border: 0;
@@ -130,6 +134,10 @@ height: 0.4rem;
     font-size: 15px;
     font-weight: 500;
     margin-right: 10px;
+}
+.avatar{
+    object-fit: cover;
+    object-position: center center;
 }
 #dropdown-menu{
     display: none;

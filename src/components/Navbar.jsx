@@ -128,7 +128,18 @@ function Navbar() {
 
             <div className="navigation-actions">
               <button className="sign-in pagination-link">Sign in</button>
-              <button className="signup">Sign Up For Free</button>
+              <button className="signup">
+                <img
+                  alt="Muhammad Hashim"
+                  loading="lazy"
+                  decoding="async"
+                  src="https://www.gravatar.com/avatar/9fec75ed73fea68d6bec31cbfd5a5bf4"
+                  width="24"
+                  height="24"
+                  className="avatar"
+                />
+                Sign Up For Free
+              </button>
             </div>
           </div>
         </div>
